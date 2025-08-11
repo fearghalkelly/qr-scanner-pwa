@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: #333;
+}
+#results {
+  padding: 0;
+  list-style-type: none;
+}
+#results li {
+  background: #f2f2f2;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 8px 14px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+#clearBtn {
+  background: #dc3545;
+}
+#clearBtn:hover {
+  background: #a71d2a;
+}
